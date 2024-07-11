@@ -10,20 +10,15 @@
     padding: 10px;
     bottom: 2%;
     box-shadow:0 0 10px rgba(0 ,0, 0.1 ) ;
-    position: sticky;
+    position:static;
     top: 2;
+    z-index: 10;
 }
 h4{
     position: relative;
   bottom: 3.8rem;
     left: 17rem;
     color: rgb(107, 107, 107);
-}
-#youtube{
-    width: 27rem;
-    height: 2rem;
-    border: 1px solid rgb(99, 93, 93);
-    border-radius: 15px 15px;
 }
 a{
     text-decoration: none;
@@ -45,7 +40,7 @@ img{
     background-color: transparent;
 }
 .right-side img{
-    width: 25px;
+    width: 35px;
     margin-right: 20px;
 }
 .left-side .menu{
@@ -67,7 +62,6 @@ img{
 .side-bar{
     padding: 10px;
     margin-left: 2%;
-    height: 100vh;
     width: 15%;
 }   
 .side-bar p{
@@ -87,6 +81,9 @@ hr{
     width: 85%;
     color: #eee5e5;
 }
+.subscriber{
+    margin-top: 1rem;
+}
 .subscriber h3{
     font-family: 'Segoe UI',;
     font-size: 20px;
@@ -103,4 +100,66 @@ hr{
 }
 .subscriber p{
     padding: 0 5px;
+}
+.banner{
+   
+padding-top:15px;
+padding-left: 5%;
+padding-bottom: 20px;
+padding-right: 2%;
+}
+.banner-images{
+    width: 100%;
+}
+ .banner-images img{
+    width: 100%;
+    border-radius: 8px;
+} 
+
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar p{
+display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;;
+}
+.parent{
+    width: 100vw;
+    display: flex;
+}
+.small-pick img{
+    width: 52px ;
+    border-radius: 50%;
+
+}
+.name h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name p{
+    display: inline;
+}
+.vidlist a img{
+    width: 350px;
+    border-radius: 20px;
+}
+.vidlist{
+    display: flex;
+    gap: 3rem;
+}
+.thumb-video{
+    width: 400px;
+}    
+.name h3{
+    padding-left: 3rem;
+}
+.name p{
+padding-left: 3rem;
+}
+.small-pick p{
+    padding-left: 3px;
 }
