@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto"sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    bottom: 2%;
+    box-shadow:0 0 10px rgba(0 ,0, 0.1 ) ;
+    position: sticky;
+    top: 2;
+}
+h4{
+    position: relative;
+  bottom: 3.8rem;
+    left: 17rem;
+    color: rgb(107, 107, 107);
+}
+#youtube{
+    width: 27rem;
+    height: 2rem;
+    border: 1px solid rgb(99, 93, 93);
+    border-radius: 15px 15px;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.center-side .search-box{
+    border: 1px solid #aaa;
+    margin-right: 13px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.center-side .search-box input{
+    width: 500px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.right-side img{
+    width: 25px;
+    margin-right: 20px;
+}
+.left-side .menu{
+    width: 25px;
+    margin-right: 25px;
+}
+.left-side .logo{
+    width: 125px;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.voice{
+    width: 20px;
+}
+    /* ---------------sidebar-------------------- */
+.side-bar{
+    padding: 10px;
+    margin-left: 2%;
+    height: 100vh;
+    width: 15%;
+}   
+.side-bar p{
+    padding: 0 5px;
+} 
+.sidebar-images a img{
+width: 25px;
+padding: 4px;
+}
+.sidebar-images a{
+display: flex;
+align-items: center;
+padding: 5px;
+}
+hr{
+    border: .2;
+    width: 85%;
+    color: #eee5e5;
+}
+.subscriber h3{
+    font-family: 'Segoe UI',;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.subscriber img{
+    width: 35px;
+    border-radius: 50%;    
+}
+.subscriber a{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.subscriber p{
+    padding: 0 5px;
+}
