@@ -245,8 +245,7 @@ flex-basis: 30%;
     width: 100%;
     border-radius: 10px;
 }
-.info{
-}
+
 .small img{
     border-radius: 50%;
     width: 3rem;
@@ -260,4 +259,180 @@ display: block;
 .info span{
     color: #5a5a5a;
     padding:2rem 0;
+}
+
+.tags a{
+    color: blue;
+    padding: 0 3px;
+    font-size: 16px;
+}
+.play-video h3{
+    font-weight: 600;
+    font-family: "Roboto";
+    font-size: 1rem;
+    
+}
+.like-image img{
+    width: 22px;
+}
+.tags-imags{
+    display: flex;
+}
+.vivews{
+color: #5a5a5a;
+padding-top: 12px;
+}
+.like-image{
+    margin-left: auto;
+}
+.like-image a img{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left :18px ;
+    padding-right: 8px;
+    padding-top: 12px;
+}
+.tags-imags hr{
+    border: none;
+    height: 1px;
+    color: #5a5a5a;
+    padding-top: 3px;
+    width: 100rem;
+}
+.channel img{
+    width: 50px;
+}
+.channel{
+    display: flex;
+}
+.channel span{
+    color: #4b4242;
+    font-size: 10px;
+}
+.channel p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.channel a button{
+    width: 7rem;
+    height: 2rem;
+    margin-left: 2rem;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+}
+.channel a button:hover{
+    background-color: #5a5a5a;
+}
+.open{
+    width: 100%;
+    height: 50px;
+    margin-top: 2rem;
+    background-color: #e3e3e3;
+}
+.comment{
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 5%;
+}
+.comment .menu img{
+    width: 15px;
+    padding-left: 2rem;
+}
+.menu h6{
+    padding-left: 2rem;
+}
+.input{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+.input .comment-image img{
+    width: 45px;
+    border-radius: 49%;
+}
+.input input{
+    width: 100%;
+    margin-top: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:2px black solid;
+    outline: none;
+    border-top: none;
+    padding-left: 5%;
+}
+.peopelcmnt{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5rem;
+}
+.peopelcmnt .image img{
+    width: 33px;
+    border-radius: 49%;
+    }
+.replay span{
+    font-size: 14px;
+    color: #4b4242;
+}
+.replay{
+    margin-left: -2.5rem;
+}
+.bad img{
+    width: 20px;
+    color: white;
+    padding: 3px;
+    background-color: #fff;
+}
+.bad{
+    padding-left: 10%;
+}
+
+@media(max-width:900px){
+    .play-video video{
+        width: 90%;
+    }
+    .grid{
+    display: block;    
+    }
+    .channel img{
+        width: 35px;
+    }
+    .channel span{
+        display: none;
+    }
+    .channel a button{
+        width: 5rem;
+        margin-right: 50px;
+    }
+    .like-image{
+        width: 15px;
+        display: flex;
+        margin-right: 34rem;
+    }
+    .like-image a img{
+        width: 15px;
+    }
+    .channel p{
+        font-size: 2vh;
+    }
+    .bad img{
+        display: none;
+    }
+    .video-right-side{
+        width: 100%;
+    }
+    .video-right-side a img{
+        
+    }
+    .image{
+        width: 90vw;
+    }
+    .replay{
+        display: none;
+    }
 }
